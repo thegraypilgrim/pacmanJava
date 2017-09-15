@@ -1,0 +1,5 @@
+compile:
+javac -d "build/classes" ./src/pacman/Pacman.java
+
+run:
+java -cp "build/classes" pacman.Pacman
