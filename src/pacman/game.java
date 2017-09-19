@@ -16,7 +16,7 @@ public class game extends Application {
         @Override
         public void start(Stage primaryStage){
                 Pane pane = new Pane();
-
+//HI
                 pane.setStyle("-fx-background-image: url(File:../img/emptyMap.png)");
                 Scene scene = new Scene(pane, 448, 496);
                 primaryStage.setTitle("circles");
