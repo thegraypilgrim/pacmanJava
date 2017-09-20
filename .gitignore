@@ -1,4 +1,8 @@
 # Compiled class file
 *.class
+
 # UNIX swap file
 *.swp
+
+# Windows batch files
+*.bat
