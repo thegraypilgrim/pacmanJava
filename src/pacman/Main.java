@@ -1,3 +1,4 @@
+package pacman; //vscode shows error, but compiles/runs without errors -Nathaniel
 
 import javafx.application.Application;
 import javafx.scene.layout.Pane;
@@ -30,7 +31,7 @@ public class Main extends Application {
          * @return A inline String of CSS properties 
          */
         private static String getPaneStyles () {
-                final String bgImage = "File:../img/emptyMap.png";
+                final String bgImage = "File:../../resources/emptyMap.png";
                 //semi-colon is required at the end of each CSS prop (inside quotes)
                 String props = "";
                 props += "-fx-background-image: url(" + bgImage + ");";
