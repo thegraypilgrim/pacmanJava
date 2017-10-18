@@ -12,8 +12,13 @@ import javafx.scene.shape.Circle;
 import javafx.scene.shape.Line;
 import javafx.scene.text.Text;
 import javafx.scene.control.Button;
-
+  
 public class Pacman {
+
+        Circle player = new Circle(6);
+       
+
+
         public static void main (String[] args) {
                 System.out.println("working");
         }
